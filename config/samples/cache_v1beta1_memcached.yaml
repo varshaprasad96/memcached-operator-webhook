@@ -1,0 +1,9 @@
+apiVersion: cache.example.com/v1beta1
+kind: Memcached
+metadata:
+  name: memcached-sample
+spec:
+  # Add fields here
+  size: 3
+  schedule:
+    minute: "*/1"
